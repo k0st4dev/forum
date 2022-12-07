@@ -31,7 +31,7 @@
                     while($row = $result->fetch_assoc()){
                         echo '<div class="row">
                             <div class="col">
-                                <h2 class="text-center">' . $row["naziv_teme"] . '</h2>
+                                <h2 class="text-center" style="color:#896A67">' . $row["naziv_teme"] . '</h2>
                             </div>
                         </div>';
                         $sql_kreator = "SELECT ime, prezime FROM korisnik WHERE korisnicko_ime = '" . $row["kreator"] . "'";
@@ -54,7 +54,7 @@
             ?>
             <div class="row mt-5">
                 <div class="col">
-                    <h4 class="text-center">KOMENTARI</h4>
+                    <h4 class="text-center" style="color:#896A67">KOMENTARI</h4>
                 </div>
             </div>
             <?php

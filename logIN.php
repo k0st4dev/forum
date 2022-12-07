@@ -26,21 +26,21 @@
                 <form  method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="card-body cardbody-color p-lg-5">
 
                     <div class="text-center">
-                        <h3>PRIJAVITE SE</h3>
+                        <h3 class="naslov">PRIJAVITE SE</h3>
                     </div>
 
-                    <div class="mb-3">
-                        <input type="text" class="form-control" name="username" aria-describedby="emailHelp" placeholder="Korisnicko ime">
+                    <div class="mb-3 ">
+                        <input  type="text" class="form-control" name="username" aria-describedby="emailHelp" placeholder="Korisnicko ime">
                     </div>
                     <div class="mb-3">
-                        <input type="password" class="form-control" name="password" placeholder="Lozinka">
+                        <input  type="password" class="form-control" name="password" placeholder="Lozinka">
                     </div>
                     <div class="text-center">
                         <button type="submit" class="btn btn-colorc px-5 mb-4 w-100">Login</button>
                     </div>
-                    <div id="emailHelp" class="form-text text-center mb-2 text-dark">
+                    <div id="emailHelp" class="form-text text-center mb-2 text-dark" style="color:#896A67">
                         Nemate nalog? 
-                        <a href="./signUP.php" class="text-dark fw-bold"> Napravi nalog</a>
+                        <a href="./signUP.php" class="text-dark fw-bold" > Napravi nalog</a>
                     </div>
                 </form>
                 </div>

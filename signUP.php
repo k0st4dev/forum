@@ -26,28 +26,28 @@
                 <form  method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" class="card-body cardbody-color p-lg-5">
 
                     <div class="text-center">
-                        <h3>NAPRAVITE NALOG</h3>
+                        <h3 class="naslov">NAPRAVITE NALOG</h3>
                     </div>
 
-                    <div class="mb-3">
-                        <input type="text" class="form-control" name="username" aria-describedby="emailHelp" placeholder="Korisnicko ime">
+                    <div class="mb-3 ">
+                        <input  type="text" class="form-control" name="username" aria-describedby="emailHelp" placeholder="Korisnicko ime">
                     </div>
                     <div class="mb-3">
-                        <input type="password" class="form-control" name="password" placeholder="Lozinka">
+                        <input  type="password" class="form-control" name="password" placeholder="Lozinka">
                     </div>
                     <div class="mb-3">
-                        <input type="password" class="form-control" name="rpassword" placeholder="Ponovite lozinku">
+                        <input  type="password" class="form-control" name="rpassword" placeholder="Ponovite lozinku">
                     </div>
                     <div class="mb-3">
-                        <input type="text" class="form-control" name="ime" placeholder="Ime">
+                        <input  type="text" class="form-control" name="ime" placeholder="Ime">
                     </div>
-                    <div class="mb-3">
-                        <input type="text" class="form-control" name="prezime" placeholder="Prezime">
+                    <div class="mb-3 ">
+                        <input  type="text" class="form-control" name="prezime" placeholder="Prezime">
                     </div>
                     <div class="text-center">
                         <button type="submit" class="btn btn-colorc px-5 mb-4 w-100">SignUp</button>
                     </div>
-                    <div id="emailHelp" class="form-text text-center text-dark">
+                    <div id="emailHelp" class="form-text text-center text-dark" style="color:#896A67">
                         Vec imate nalog? 
                         <a href="./logIN.php" class="text-dark fw-bold"> Prijavite se</a>
                     </div>

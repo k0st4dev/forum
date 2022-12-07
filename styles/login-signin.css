@@ -1,11 +1,17 @@
-.btn-colorc{
-    background-color: #0e1c36 !important;
-    color: #fff !important;
-    
+body {
+  background-color: #eff9f0;
 }
-.cardbody-color{
-    background-color: #ebf2fa;
+.naslov {
+  color: #896a67;
 }
-a{
-    text-decoration: none;
+
+.btn-colorc {
+  background-color: #896a67 !important;
+  color: #eff9f0 !important;
+}
+.cardbody-color {
+  background-color: #ddc8c4;
+}
+a {
+  text-decoration: none;
 }

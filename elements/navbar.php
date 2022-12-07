@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+<nav class="navbar navbar-expand-lg ">
   <div class="container">
     <a class="navbar-brand" href="./index.php">Forum</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -10,7 +10,7 @@
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Account
           </a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu" style="background-color:#DDC8C4"  >
             <?php
               if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] == 1)
               {
@@ -28,7 +28,7 @@
             if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] == 1)
             {
               echo '<li class="nav-item">
-              <a class="nav-link" href="../tema.php">Napravi temu</a>
+              <a class="nav-link" href="../tema.php">Kreiraj temu</a>
             </li>';
             }
           ?>
