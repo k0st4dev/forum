@@ -5,7 +5,7 @@
 
     if(isset($_SESSION["loggedIn"]) && $_SESSION["loggedIn"] == 0)
     {
-        header('Location: http://nemanaziv.com/index.php');
+        header('Location: http://kosta.com/index.php');
     }
 ?>
 
